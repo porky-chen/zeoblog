@@ -129,7 +129,7 @@ fi;
 ### Specific filename
 
 ```sass
-@import
+@use
   "colors/light-typography",
   "colors/dark-typography";
 ```

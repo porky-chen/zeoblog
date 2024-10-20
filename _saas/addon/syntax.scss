@@ -2,8 +2,8 @@
 * The syntax highlight.
 */
 
-@import 'colors/syntax-light';
-@import 'colors/syntax-dark';
+@use 'colors/syntax-light';
+@use 'colors/syntax-dark';
 
 html {
   @media (prefers-color-scheme: light) {
