@@ -2,7 +2,7 @@
 title: 实现跨浏览器支持的 ResizeObserver Polyfill
 author: zeo
 date: 2024-7-16
-categories: [知识点, 实现自定义 `ResizeObserver` 在 Vue 和 React 中监听元素尺寸变化]
+categories: [知识点, Javascript, 实现自定义 `ResizeObserver` 在 Vue 和 React 中监听元素尺寸变化]
 tags: [ResizeObserver, Vue, React, 元素变化]
 render_with_liquid: false
 ---
