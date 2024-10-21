@@ -1,10 +1,13 @@
 ---
-title: 一步步带你实现 TypeScript 计时器工具类
+title: TypeScript Timer 工具类
 author: zeo
-date: 2024-10-20 19:46:00 +0800
+date: 2024-7-16 19:46:00 +0800
 categories: [提效工具, 定时器Timer类]
 tags: [提效, Typescript, 定时器, Timer]
 render_with_liquid: false
+seo:
+  title: TypeScript Timer 工具类教程
+  description: 了解如何使用TypeScript实现一个计时器工具类
 ---
 
 # 如何实现一个强大的 TypeScript 计时器工具类
