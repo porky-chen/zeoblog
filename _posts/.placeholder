@@ -1,56 +1,30 @@
-1.	title:
-定义页面或文章的标题。
-示例：title: 一步步带你实现 TypeScript 计时器工具类
-	2.	author:
-定义文章的作者。
-示例：author: zeo
-	3.	date:
-定义文章的发布时间。格式为YYYY-MM-DD HH:MM:SS +/-TTTT，其中+0800表示时区。
-示例：date: 2024-10-20 19:46:00 +0800
-	4.	categories:
-定义文章的分类，可以使用一个或多个分类。
-示例：categories: [提效工具, 定时器Timer类]
-	5.	tags:
-定义文章的标签，用于更细粒度的内容分组。
-示例：tags: [提效, Typescript, 定时器, Timer]
-	6.	layout:
-定义页面的布局模板。布局文件通常位于_layouts目录中。
-示例：layout: post
-	7.	permalink:
-自定义页面的URL路径。
-示例：permalink: /custom-path/
-	8.	excerpt:
-手动定义文章的摘要。
-示例：excerpt: "这是一个定时器工具类的实现指南"
-	9.	render_with_liquid:
-控制是否通过Liquid引擎渲染该页面。如果设置为false，Liquid标签不会被处理。
-示例：render_with_liquid: false
-	10.	published:
-控制页面是否发布。如果设置为false，该页面不会出现在生成的站点中。
-示例：published: false
-	11.	toc (如果使用支持的主题):
-控制是否在页面上显示目录（Table of Contents）。
-示例：toc: true
-	12.	seo (如果使用SEO插件):
-定义SEO相关的元数据，比如描述、关键字等。
-示例：
+---
+title: xxx
+author: zeo
+date: YYYY-MM-DD HH:MM:SS +/-TTTT (2024-10-20 19:46:00 +0800)
+categories: [知识点, 快速切换资源] // 定义文章的分类，可以使用一个或多个分类。
+tags: [提效, webpack, NodeJS] // 定义文章的标签，用于更细粒度的内容分组。
+layout: post // 定义页面的布局模板。布局文件通常位于_layouts目录中。
+permalink: /custom-path/ // 自定义页面的URL路径。
+excerpt: "这是一个定时器工具类的实现指南" // 手动定义文章的摘要。
+render_with_liquid: false // 控制是否通过Liquid引擎渲染该页面。如果设置为false，Liquid标签不会被处理。
+published: true // 控制页面是否发布。如果设置为false，该页面不会出现在生成的站点中。
+toc: true // 控制是否在页面上显示目录（Table of Contents）。
 seo:
-  title: TypeScript Timer 工具类教程
-  description: 了解如何使用TypeScript实现一个计时器工具类
-
+	title: TypeScript Timer 工具类教程
+	description: 了解如何使用TypeScript实现一个计时器工具类
 image:
 文章的预览图片或封面图片。
 示例：image: /assets/images/timer-class.png
 
-	•	math:
-启用数学公式渲染，适合用在包含数学表达式的文章中。
-示例：math: true
+math: true // 启用数学公式渲染，适合用在包含数学表达式的文章中。
+---
 
----
-title: 实现跨浏览器支持的 ResizeObserver Polyfill
-author: zeo
-date: 2024-7-16
-categories: [知识点, 快速切换资源]
-tags: [提效, webpack, NodeJS]
-render_with_liquid: false
----
+分类
+
+知识点: [Vue2, Vue3, 组件, React, Javascript, TypeScript, 算法篇, 数据结构, 设计模式, 浏览器&网络, 性能优化, Node, 代码设计规范]
+小工具: [提效, 实用类, SDK]
+项目: [web, H5, 小程序, 游戏]
+AI: []
+书籍: []
+动画: []
