@@ -125,9 +125,7 @@ devServer: {
 
 
 ### 1、接下来如何使用呢！
-
-
-![image-20231202230511608_副本.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/74276c9a821548f3bdfa924f77e824c7~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1354&h=418&s=51849&e=png&b=121212)
+![change-proxy](/assets/img/posts/changeProxy.png)
 
 ### 2、本地运行的IP/changeProxy?target={env}
 
