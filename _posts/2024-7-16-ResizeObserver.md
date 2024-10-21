@@ -10,7 +10,7 @@ render_with_liquid: false
 ### 使用自定义 `ResizeObserver` 在 Vue 和 React 中监听元素尺寸变化
 
 在前端开发中，监听元素尺寸变化是一个常见的需求。虽然现代浏览器提供了 `ResizeObserver` API，但是在一些旧版本的浏览器中可能不支持。本文将介绍如何实现一个自定义的 `ResizeObserver`，并在 Vue 和 React 中使用它来监听元素的尺寸变化。
-
+2
 ### 什么是 ResizeObserver？
 
 `ResizeObserver` 是一种新的浏览器 API，用于监听元素内容矩形的变化。当元素的尺寸（宽度或高度）发生变化时，会触发回调函数。`ResizeObserver` 是响应式设计和复杂布局的理想选择。
@@ -62,7 +62,7 @@ window.ResizeObserver = class {
 };
 ```
 
-##### 代码解释：
+### 代码解释：
 
 1. **构造函数**：`constructor(callback)` 接受一个回调函数作为参数，并初始化 `observables` 数组、绑定的 `check` 方法和回调函数。
 
@@ -173,7 +173,7 @@ const ResizeObserverExample = () => {
 export default ResizeObserverExample;
 ```
 
-##### 代码解释：
+### 代码解释：
 
 1. **`useRef`**：创建一个 `ref`，用于引用需要观察的 DOM 元素。
 
