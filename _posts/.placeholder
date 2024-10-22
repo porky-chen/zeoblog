@@ -22,7 +22,7 @@ math: true // 启用数学公式渲染，适合用在包含数学表达式的文
 
 分类
 
-知识点: [Vue2, Vue3, 组件, React, JavaScript, TypeScript, 算法篇, 数据结构, 设计模式, 浏览器&网络, 性能优化, Node, 代码设计规范]
+知识点: [Vue2, Vue3, 组件, React, JavaScript, TypeScript, 算法篇, 数据结构, 设计模式, 浏览器&网络, 性能优化, Node, 代码设计规范与协作]
 小工具: [提效, 实用类, SDK]
 项目: [web, H5, 小程序, 游戏]
 AI: []
