@@ -7,7 +7,7 @@ tags: [JavaScript, 原型, 原型链, prototype, __proto__]
 render_with_liquid: false
 ---
 
-# 深入理解ES6的“原型 & 原型链”
+# 理解“原型 & 原型链”
 
 在JavaScript中，**原型（Prototype）**和**原型链（Prototype Chain）**是理解面向对象编程的核心概念。它们提供了对象继承机制，使得对象能够共享属性和方法。尽管原型机制在ES5就已经存在，ES6对其进行了优化和增强，使得类的语法更加简洁明了。
 
