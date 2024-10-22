@@ -3,7 +3,7 @@ title: 原型 & 原型链
 author: zeo
 date: 2024-7-18
 categories: [知识点, JavaScript, 原型 & 原型链]
-tags: [JavaScript, 原型, 原型链, prototype, __proto__]
+tags: [JavaScript, ES6, 原型, 原型链, prototype, __proto__]
 render_with_liquid: false
 ---
 
