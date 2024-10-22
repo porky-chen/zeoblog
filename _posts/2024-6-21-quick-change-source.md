@@ -1,7 +1,7 @@
 ---
 title: Development快速切换线上资源
 author: zeo
-date: 2023-12-21 19:46:00 +0800
+date: 2024-6-21 19:46:00 +0800
 categories: [小工具, 提效, 快速切换资源]
 tags: [提效, webpack, NodeJS]
 render_with_liquid: false
