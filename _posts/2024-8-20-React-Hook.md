@@ -56,6 +56,12 @@ function Counter() {
 ```
 在这个例子中，我们用 `useState` 创建了一个名为 `count` 的状态变量，并使用 `setCount` 更新它。
 
+### 使用场景
+
+- 用于跟踪组件内部状态，如表单输入、开关状态、计数器等。
+- 简单的数据管理，适用于小型应用或组件。
+
+---
 ### 2.2 `useEffect`
 
 `useEffect` 用来在函数组件中处理副作用，它相当于类组件中的生命周期方法 `componentDidMount`、`componentDidUpdate` 和 `componentWillUnmount` 的组合。常见的副作用操作包括数据请求、手动 DOM 操作、订阅或清除操作等。
@@ -92,6 +98,12 @@ function DataFetcher() {
   );
 }
 ```
+### 使用场景
+
+- 数据获取、事件监听、定时器等副作用。
+- 清理资源（如取消订阅）以避免内存泄漏。
+
+---
 
 ### 2.3 `useContext`
 
@@ -122,6 +134,12 @@ function App() {
 }
 ```
 在这个例子中，我们通过 `useContext` 获取 `ThemeContext` 中的值，并根据该值调整按钮的样式。
+### 使用场景
+
+- 在组件树中传递全局状态，如主题、用户信息等。
+- 使得深层组件能够轻松访问共享状态而无需逐层传递 props。
+
+---
 
 ### 2.4 `useReducer`
 
@@ -241,6 +259,12 @@ function App() {
 使用 `useCallback` 确保 `handleClick` 在依赖项 `count` 不变时不会重新创建，从而优化性能。
 
 ---
+### 使用场景
+
+- `useMemo`：当有昂贵计算的值且需要依赖其他状态或属性时使用。
+- `useCallback`：在将回调函数传递给子组件时使用，以防止不必要的渲染。
+
+---
 
 ## 3. 自定义 Hooks
 
@@ -269,3 +293,24 @@ function App() {
   return <p>窗口宽度：{width}px</p>;
 }
 ```
+
+## 4. 生命周期对比：类组件 vs Hooks
+
+| 生命周期阶段       | 类组件方法                      | Hooks 等价实现                        |
+|--------------------|---------------------------------|---------------------------------------|
+| **挂载阶段**       | `componentDidMount`             | `useEffect(() => {...}, [])`         |
+| **更新阶段**       | `componentDidUpdate`            | `useEffect(() => {...}, [依赖项])`   |
+| **卸载阶段**       | `componentWillUnmount`          | `useEffect(() => {... return () => {...} }, [])` |
+
+通过使用 Hooks，开发者可以根据依赖项灵活地控制副作用的执行时机，使其具备了更强的灵活性。
+
+---
+
+## 5. 结论
+
+React Hooks 提供了强大且灵活的工具来处理状态和生命周期。在函数组件中，`useState`、`useEffect`、`useContext`、`useMemo` 和 `useCallback` 等 Hooks 为开发者提供了管理状态、处理副作用和优化性能的能力。
+
+- **`useState`**：用于声明状态，管理组件的内部状态。
+- **`useEffect`**：用于处理副作用，如数据获取和事件监听。
+- **`useContext`**：用于消费全局状态，方便组件之间共享数据。
+- **`useMemo` 和 `useCallback`**：用于性能优化，缓存计算结果和回调函数。
