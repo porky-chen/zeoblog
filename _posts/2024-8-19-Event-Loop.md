@@ -2,7 +2,7 @@
 title: 事件循环（Event Loop）
 author: zeo
 date: 2024-8-19
-categories: [知识点, JavaScript, 事件循环（Event Loop）]
+categories: [知识点, JavaScript]
 tags: [JavaScript, Event Loop]
 render_with_liquid: false
 ---

@@ -2,7 +2,7 @@
 title: React Hooks
 author: zeo
 date: 2024-8-20
-categories: [知识点, React, Hooks]
+categories: [知识点, React]
 tags: [React, Hooks]
 render_with_liquid: false
 ---

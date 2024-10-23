@@ -1,8 +1,7 @@
 ---
 title: Vue3 相比 Vue2 的主要变化
 author: zeo
-date: 2024-8-17
-categories: [知识点, Vue, Vue3 相比 Vue2 的主要变化]
+categories: [知识点, Vue]
 tags: [Vue]
 render_with_liquid: false
 ---

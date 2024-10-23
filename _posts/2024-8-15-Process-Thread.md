@@ -2,7 +2,7 @@
 title: 进程/线程
 author: zeo
 date: 2024-8-15 19:46:00 +0800
-categories: [知识点, 浏览器&网络, 进程/线程]
+categories: [知识点, 浏览器&网络]
 tags: [进程, 线程, Chrome]
 render_with_liquid: false
 ---

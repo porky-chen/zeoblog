@@ -2,7 +2,7 @@
 title: Class & Super
 author: zeo
 date: 2024-7-18
-categories: [知识点, JavaScript, Class & Super]
+categories: [知识点, JavaScript]
 tags: [JavaScript, ES6, Class, Super, getPrototypeOf, setPrototypeOf]
 render_with_liquid: false
 ---

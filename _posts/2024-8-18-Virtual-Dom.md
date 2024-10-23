@@ -2,7 +2,7 @@
 title: Vue 和 React 虚拟 DOM 的主要区别
 author: zeo
 date: 2024-8-18
-categories: [知识点, Vue, Vue 和 React 虚拟 DOM 的主要区别]
+categories: [知识点, Vue]
 tags: [Vue, React, 虚拟Dom]
 render_with_liquid: false
 ---

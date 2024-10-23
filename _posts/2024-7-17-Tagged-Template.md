@@ -2,7 +2,7 @@
 title: 标签模板
 author: zeo
 date: 2024-7-17
-categories: [知识点, JavaScript, 标签模板]
+categories: [知识点, JavaScript]
 tags: [JavaScript, 标签模板, ES6]
 render_with_liquid: false
 ---

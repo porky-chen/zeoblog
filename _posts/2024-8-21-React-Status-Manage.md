@@ -2,7 +2,7 @@
 title: React 状态管理
 author: zeo
 date: 2024-8-21
-categories: [知识点, React, 状态管理]
+categories: [知识点, React]
 tags: [React, 状态管理, Redux]
 render_with_liquid: false
 ---
