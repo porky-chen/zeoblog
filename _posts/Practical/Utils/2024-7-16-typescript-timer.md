@@ -2,7 +2,7 @@
 title: TypeScript Timer 工具类
 author: zeo
 date: 2024-7-16 19:46:00 +0800
-categories: [小工具, 实用类]
+categories: [实战篇, Utils]
 tags: [提效, Typescript, 定时器, Timer]
 render_with_liquid: false
 seo:

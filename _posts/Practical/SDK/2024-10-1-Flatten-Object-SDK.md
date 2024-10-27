@@ -1,7 +1,7 @@
 ---
 title: Flatten Object
 author: zeo
-categories: [小工具, SDK]
+categories: [实战篇, SDK]
 tags: [JavaScript, 对象扁平化]
 render_with_liquid: false
 ---

@@ -2,7 +2,7 @@
 title: JavaScript 对象扁平化
 author: zeo
 date: 2024-9-15 19:46:00 +0800
-categories: [小工具, 编程场景设计]
+categories: [实战篇, Utils]
 tags: [JavaScript, 对象扁平化, 递归, 遍历]
 render_with_liquid: false
 ---

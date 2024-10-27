@@ -1,6 +1,6 @@
 {
   "name": "zeo-blog",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A responsive, feature-rich personal blog center based on Jekyll, gathering front-end technology sharing",
   "repository": {
     "type": "git",
