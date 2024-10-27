@@ -28,22 +28,24 @@ render_with_liquid: false
 
 ```bash
 npm install flatten-object-sdk
+```
 
-使用方法
+## 使用方法
 
 要使用 flatten-object-sdk，首先导入并初始化 SDK：
-
+```bash
 const ObjectManipulator = require('flatten-object-sdk');
 const objManipulator = new ObjectManipulator();
+```
 
-示例
+## 示例
 
 下面是一些主要功能的使用示例：
 
-1. 平展一个复杂对象
+### 1. 扁平化复杂对象
 
 假设我们有一个包含数组和子对象的嵌套对象：
-
+```bash
 const complexObject = {
   a: 1,
   b: 'Joy',
@@ -61,9 +63,9 @@ const complexObject = {
 const flatObject = objManipulator.flatten(complexObject);
 
 console.log(flatObject);
-
+```
 输出：
-
+```bash
 {
   "a": 1,
   "b": "Joy",
@@ -79,13 +81,13 @@ console.log(flatObject);
   "arr[5].arr_a": "node",
   "arr[5].arr_b": "TS"
 }
-
+```
 这种平展结构特别适合存储在键值数据库中，或用于 API 传输，能将嵌套数据结构转为平展形式。
 
-2. 将平展对象还原为嵌套结构
+### 2. 还原扁平化对象
 
 使用 unflatten 方法可将平展对象还原为原始结构：
-
+```bash
 const flatObject = {
   "a": 1,
   "b": "Joy",
@@ -105,9 +107,9 @@ const flatObject = {
 const complexObject = objManipulator.unflatten(flatObject);
 
 console.log(complexObject);
-
+```
 输出：
-
+```bash
 {
   a: 1,
   b: 'Joy',
@@ -128,34 +130,34 @@ console.log(complexObject);
     { arr_a: 'node', arr_b: 'TS' }
   ]
 }
-
+```
 这在接收平展数据并恢复为嵌套对象时非常有用。
 
-3. 其他属性操作
+### 3. 其他属性操作
 
 该 SDK 还提供方法来检查、添加和删除对象中的属性。
 
-检查属性是否存在
-
+### 检查属性是否存在
+```bash
 const exists = objManipulator.hasProperty(complexObject, 'cell.deep.deep_a');
 console.log(exists);  // 输出: true
-
-添加新属性
-
+```
+### 添加新属性
+```bash
 objManipulator.setProperty(complexObject, 'newProperty', 'value');
 console.log(complexObject.newProperty);  // 输出: 'value'
-
-删除属性
-
+```
+### 删除属性
+```bash
 objManipulator.deleteProperty(complexObject, 'a');
 console.log(complexObject.a);  // 输出: undefined
-
-高级用法
+```
+## 高级用法
 
 支持自定义符号
 
 flatten-object-sdk 支持点号（.）和方括号（[]）符号，便于数组与对象的混合操作，开发者可以自定义数据结构并灵活控制数据访问方式。
 
-错误处理
+## 错误处理
 
 SDK 对无效或未定义的属性路径具有容错处理能力，确保在不同的运行环境中能保持稳定的表现。
