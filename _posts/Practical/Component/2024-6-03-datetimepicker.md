@@ -2,7 +2,7 @@
 title: Vue.js Date Picker 实用技巧
 author: zeo
 date: 2024-6-03
-categories: [知识点, 组件]
+categories: [实战篇, 组件]
 tags: [组件, Date Picker]
 render_with_liquid: false
 ---
