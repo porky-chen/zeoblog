@@ -11,6 +11,16 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
+- type: leetcode
+  icon: "fa-solid fa-code"
+  url: "https://leetcode.cn/progress/"
+  noblank: true
+
+- type: npm
+  icon: "fab fa-npm"
+  url: "https://www.npmjs.com/settings/zeao/packages"
+  noblank: true
+
 # - type: rss
 #   icon: "fas fa-rss"
 #   noblank: true
