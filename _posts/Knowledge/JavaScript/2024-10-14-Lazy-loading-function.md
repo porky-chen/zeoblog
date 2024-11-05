@@ -1,7 +1,7 @@
 ---
 title: 高阶函数：惰性加载函数
 author: zeo
-categories: [知识点, Javascript]
+categories: [知识点, JavaScript]
 tags: [高阶函数, 惰性加载函数]
 render_with_liquid: false
 ---

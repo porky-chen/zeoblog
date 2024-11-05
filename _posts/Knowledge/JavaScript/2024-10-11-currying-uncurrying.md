@@ -1,7 +1,7 @@
 ---
 title: 高阶函数：柯里化和解柯里化
 author: zeo
-categories: [知识点, Javascript]
+categories: [知识点, JavaScript]
 tags: [高阶函数, 柯里化, 解柯里化]
 render_with_liquid: false
 ---
